@@ -134,6 +134,7 @@ aside button{
   #container {
       margin-top: 50px;
       margin-left: 100px;
+    
   }
   
   a, a:link, a:active, a:visited {
@@ -178,14 +179,19 @@ aside button{
   background-color: rgb(17, 0, 255);
   color: #fff;
 }
+.parrafo{
+  width: 400px;
+}
   footer{
   
       height: 40px;
       background-color: rgb(203, 247, 205);
       text-align: center;
       color: forestgreen;
-      margin-top: 120px;
+      margin-top: 290px;
+
   }
+
   @media screen and ( max-width:150px){
       aside{
           width: 100%;

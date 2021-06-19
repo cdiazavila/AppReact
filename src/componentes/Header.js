@@ -1,13 +1,12 @@
-import React, {Fragment } from 'react';
+import React from 'react';
 
-function Header(props){
+function Header({titulo}){
     return(
-        <Fragment>
+       
             <header>
-              <h4>{props.titulo}</h4>
+              <h4>{titulo}</h4>
             </header>
        
-        </Fragment>
     )
 }
 export default Header;

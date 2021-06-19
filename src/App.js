@@ -22,11 +22,13 @@ function App() {
      guardarcontarpreguntas(contador);
   }
 let componente;
+let barra;
 if(datos===''){
 componente = <Aside obtenerDatos={obtenerDatos} nombres ={nombres} guardarNombre={guardarNombre}
 apellidos ={apellidos} guardarApellidos={guardarApellidos} />
 }else{
 componente = <Container obtenercontador={obtenercontador} />
+barra =  <Nav nombre ={datos} contarPreguntas={contarPreguntas}/>
 }
   return (
     <Fragment>
@@ -34,9 +36,8 @@ componente = <Container obtenercontador={obtenercontador} />
           titulo="Test De Desarrollo Web"
           
           />
-        
-          <Nav nombre ={datos} contarPreguntas={contarPreguntas}/>
-        
+          
+          {barra}
           {componente}
       
           
