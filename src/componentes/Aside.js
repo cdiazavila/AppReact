@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+
  function Aside(props){
 
       //captura un mensaje de error 

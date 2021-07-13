@@ -2,7 +2,7 @@ import React, { Fragment, useState }  from 'react';
 import Header from './componentes/Header';
 import Aside from './componentes/Aside';
 import Container from './componentes/Container';
-import Footer from './componentes/footer';
+import Footer from './componentes/Footer';
 import Nav from './componentes/Nav';
 
 function App() {
@@ -34,7 +34,6 @@ barra =  <Nav nombre ={datos} contarPreguntas={contarPreguntas}/>
     <Fragment>
          <Header
           titulo="Test De Desarrollo Web"
-          
           />
           
           {barra}
